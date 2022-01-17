@@ -1,0 +1,51 @@
+#side-bar {
+    background-color: #7F26DE;
+
+    width: 36.6rem;
+    height: 95vh;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+    margin: 20px;
+    padding-bottom: 20px;
+
+    border-radius: 30px;
+}
+
+.side-bar-content {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    margin-top: 14.8rem;
+}
+
+.side-bar-content a {
+    color: white;
+    font: 700 2rem Poppins;
+    text-decoration: none;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    height: 8.8rem;
+}
+
+.side-bar-content img {
+    margin-left: 2.4rem;
+}
+
+#side-bar a {
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #a169dd;
+}
+
+#side-bar a img {
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-right: 2rem;
+}
+

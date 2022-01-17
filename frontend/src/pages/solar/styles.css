@@ -1,0 +1,87 @@
+.page-content {
+    max-width: 1230px;
+    width: 100vw;
+    margin-left: 110px;
+}
+
+.page-content header {
+    margin-top: 158px;
+}
+
+.page-content .chart-total {
+    margin-top: 52px;
+}
+
+.chart-total {
+    background-color: #212C42;
+    border-radius: 18px;
+    padding: 18px;
+
+    margin-left: 38px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    width: 1280px;
+}
+
+.chart-total h1, .chart-array1 h1, .chart-array2 h1, .chart-array3 h1 {
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+    margin-left: 38px;
+}
+
+.chart-array1, .chart-array2, .chart-array3 {
+    margin-top: 52px;
+    background-color: #212C42;
+    border-radius: 18px;
+    padding: 18px;
+
+    margin-left: 38px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.chart-array2 {
+    margin-left: 52px;
+}
+
+#chart-array {
+    display: flex;
+}
+
+#bottom-pag {
+    display: flex;
+    align-items: end;
+
+    padding-bottom: 50px;
+}
+
+.chart-array3 {
+    width: 618px;
+}
+
+a#gerenciar-solar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: 52px;
+    padding: 5px;
+
+    width: 100%;
+    max-width: 198px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+
+}
+
+
+
+
+
+
+

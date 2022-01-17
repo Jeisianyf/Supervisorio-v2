@@ -1,0 +1,69 @@
+.management-area {
+    margin-top: 48px;
+    width: 560px;
+    height: 200px;
+
+    margin-left: 38px;
+    padding: 18px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #212C42;
+    border-radius: 18px;
+}
+
+.management-area > h1 {
+    margin: auto;
+}
+
+
+.management-area img {
+    width: 50px;
+    height: 50px;
+}
+
+.management-area button {
+    height: 46px;
+    margin-top: 28px;
+
+    background-color: #5A49DF;
+    border-radius: 12px;
+    border: none;
+
+    font: 700 2.4rem Ubuntu;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.management-area button:hover {
+    background-color: #7162e4;
+}
+
+
+.up-down-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.up-down-area h1 {
+    margin-left: 12px;
+    font: 700 4.8rem Roboto;
+}
+
+
+.down-energy, .up-energy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down-energy h1 {
+    color: #FF0000;
+}
+
+.up-energy h1 {
+    color: #00FF19;
+}
