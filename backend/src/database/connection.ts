@@ -1,12 +1,12 @@
 import knex from 'knex';
 
 const db = knex({
-    client: 'pg',
+    client: '',
     connection: {
-        host: 'by1m0ecnkevbdpbydqsw-postgresql.services.clever-cloud.com',
-        user: 'ui83ojofenlupimcxioh',
-        password: 'meb5LLAhivu0XI4hEZc3',
-        database: 'by1m0ecnkevbdpbydqsw'
+        host: '',
+        user: '',
+        password: '',
+        database: ''
     },
     useNullAsDefault: true,
 });
